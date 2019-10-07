@@ -1,14 +1,14 @@
 var mainState = {
 
     preload: function() { 
-        /*if(!game.device.desktop) {
+        if(!game.device.desktop) {
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
             game.scale.setMinMax(game.width/2, game.height/2, game.width, game.height);
         }
         
         game.scale.pageAlignHorizontally = true;
         game.scale.pageAlignVertically = true;
-        */
+        
         game.stage.backgroundColor = '#71c5cf';
 
         game.load.image('bird', 'assets/bird.png');  
